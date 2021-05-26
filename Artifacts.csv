@@ -1,0 +1,119 @@
+appname,type,path,regex
+ABC News Live,Installation Timestamp,com.abc.abcnews/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+ABC News Live,Last Run Timestamp,com.abc.abcnews/f/nielsenconfig/PDDAED87D-FEF2-475A-8A00-2242A3F2A46A_aa.6.1.0.1,(?<!\d)\d{10}(?!\d)
+Amazon Music,Installation Timestamp,com.amazon.music.tv/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+Badlands,Installation Timestamp,com.frogmind.badland/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+Captive Portal Login,Installation Timestamp,com.android.captiveportallogin/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+CBS News Live,Installation Timestamp,com.cbsnews.ott/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+Crackle,Installation Timestamp,com.crackle.androidtv/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+Disney ABC,Last Close Timestamp,com.disney.datg.videoplatforms.android.abc/sp/com.newrelic.android.agent.v1_com.disney.datg.videoplatforms.android.abc.xml,"[\n\r].*""serverTimestamp"" value=""\s*([^\n\r]*)"
+Downloader,Installation Timestamp,com.esaba.downloader/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+Downloader,Links Visited,com.esaba.downloader/r/app_webview/Default/Local Storage/leveldb/000006.log,"(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})"
+Downloader,Backend Links Visited,com.esaba.downloader/r/app_webview/Default/Session Storage/000003.log,"(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})"
+Dreamx,User Email,com.google.android.apps.tv.dreamx/sp/PhenotypeStickyAccount.xml,[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+Dreamx,User Email,com.google.android.apps.tv.dreamx/r/app_phenotype_file/com.google.android.apps.tv.dreamx#com.google.android.apps.tv.dreamx.pb,[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+ESPN,Last Close Timestamp,com.espn.score_center/sp/account_prefs_ads.xml,(?<!\d)\d{13}(?!\d)
+ESPN,Initial Run Timestamp,com.espn.score_center/sp/APP_MEASUREMENT_CACHE.xml,"[\n\r].*""ADMS_InstallDate"" value=""\s*([^\n\r]*)"
+ESPN,Last Run Timestamp,com.espn.score_center/sp/APP_MEASUREMENT_CACHE.xml,"[\n\r].*""ADMS_PauseDate"" value=""\s*([^\n\r]*)"
+ESPN,Installation Timestamp,com.espn.score_center/sp/cSPrefs.xml,"[\n\r].*""firstInstallId"">\s*([^\n\r]*)"
+ESPN,Last Run Timestamp,com.espn.score_center/sp/cSPrefs.xml,"[\n\r].*""lastApplicationSessionTimestamp"">\s*([^\n\r]*)"
+ESPN,Last Close Timestamp,com.espn.score_center/sp/cSPrefs.xml,"[\n\r].*""lastMeasurementProcessedTimestamp"">\s*([^\n\r]*)"
+ESPN,User Email,com.espn.score_center/sp/account_prefs_one_id.xml,[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+Fite,Installation Timestamp,com.flipps.fitetv/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+Fite,Initial Run Timestamp,com.flipps.fitetv/sp/com.google.android.gms.measurement.prefs.xml,"[\n\r].*""first_open_time"" value=""\s*([^\n\r]*)"
+Fite,Last Pause Timestamp,com.flipps.fitetv/sp/com.google.android.gms.measurement.prefs.xml,"[\n\r].*""last_pause_time"" value=""\s*([^\n\r]*)"
+Fite,Last Close Timestamp,com.flipps.fitetv/sp/com.google.android.gms.measurement.prefs.xml,"[\n\r].*""last_upload"" value=""\s*([^\n\r]*)"
+Fite,User Email,com.flipps.fitetv/sp/com.google.android.gms.signin.xml,[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+Fox Nation,Installation Timestamp,com.fng.foxnation/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+Fox News,Installation Timestamp,com.foxnews.android/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+Fox News,Installation Timestamp,com.foxnews.android/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+Fox News,Last Close Timestamp,com.foxnews.android/sp/admob.xml,(?<!\d)\d{13}(?!\d)
+Fox Sports,Installation Timestamp,com.foxsports.android/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+Haystack News,Installation Timestamp,com.haystack.android/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+Haystack News,User Email,com.haystack.android/sp/com.google.android.gms.signin.xml,[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+History,Initial Run Timestamp,com.aetn.history.watch.androidtv/sp/com.google.android.gms.measurement.prefs.xml,"[\n\r].*""first_open_time"" value=""\s*([^\n\r]*)"
+History,Last Pause Timestamp,com.aetn.history.watch.androidtv/sp/com.google.android.gms.measurement.prefs.xml,"[\n\r].*""last_pause_time"" value=""\s*([^\n\r]*)"
+History,Last Close Timestamp,com.aetn.history.watch.androidtv/sp/com.google.android.gms.measurement.prefs.xml,"[\n\r].*""last_upload"" value=""\s*([^\n\r]*)"
+Into The Dead,Installation Timestamp,com.sidheinteractive.sif.DR/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+Into The Dead,Initial Run Timestamp,com.sidheinteractive.sif.DR/sp/com.google.android.gms.measurement.prefs.xml,"[\n\r].*""first_open_time"" value=""\s*([^\n\r]*)"
+Into The Dead,Last Pause Timestamp,com.sidheinteractive.sif.DR/sp/com.google.android.gms.measurement.prefs.xml,"[\n\r].*""last_pause_time"" value=""\s*([^\n\r]*)"
+Into The Dead,Last Close Timestamp,com.sidheinteractive.sif.DR/sp/com.google.android.gms.measurement.prefs.xml,"[\n\r].*""last_upload"" value=""\s*([^\n\r]*)"
+Jiopages,Installation Timestamp,com.tvwebbrowser.v22/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+Jiopages,Links Visited,com.tvwebbrowser.v22/r/app_webview/Default/Session Storage/000003.log,"(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})"
+Jiopages,Backend Links Visited,com.tvwebbrowser.v22/r/app_webview/Default/Local Storage/leveldb/000003.log,"(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})"
+Jiopages,Site Headers,com.tvwebbrowser.v22/sp/SP_WEBVIEW_PREFS.xml,"[\n\r].*"">\s*([^\n\r]*)"
+Katniss,Installation Timestamp,com.google.android.katniss/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+Katniss,User Email,com.google.android.katniss/sp/katniss.voice.interactor.xml,[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+Katniss,User Email,com.google.android.katniss/sp/com.google.android.katniss.setting.xml,[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+Katniss,User Email,com.google.android.katniss/f/AccountData.pb,[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+Katniss,User Email,com.google.android.katniss/f/common/shared/mobstore_accounts.pb,[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+Market Cast,Installation Timestamp,co.adamapps.financeapp/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+Market Cast,User Email,co.adamapps.financeapp/sp/com.google.android.gms.signin.xml,[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+Market Cast,User Email,co.adamapps.financeapp/sp/co.adamapps.financeapp_preferences.xml,[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+Media Shell,Last Run Timestamp,com.google.android.apps.mediashell/sp/RecommendationsService.xml,(?<!\d)\d{13}(?!\d)
+Message Writer,Saved Messages,mobile.message/sp/mobile.message.xml,[\n\r].*Arrays\s*([^\n\r]*)
+NBC,Installation Timestamp,com.nbcuni.nbc.androidtv/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+NBC,User Login Timestamp,com.nbcuni.nbc.androidtv/sp/mp_preferences:-6659740237736813566.xml,(?<!\d)\d{13}(?!\d)
+NBC,User Email,com.nbcuni.nbc.androidtv/sp/mp_preferences:-6659740237736813566.xml,[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+NBC,User Email,com.nbcuni.nbc.androidtv/sp/com.iterable.iterableapi.xml,[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+NBC Sports,Last Close Timestamp,com.nbcsports.apps.tv/sp/AnalyticsDataStorage.xml,(?<!\d)\d{10}(?!\d)
+NBC Sports,Installation Timestamp,com.nbcsports.apps.tv/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+NBC Sports,Account ID,com.nbcsports.apps.tv/sp/com.newrelic.android.agent.v1_com.nbcsports.apps.tv.xml,"[\n\r].*""account_id"">\s*([^\n\r]*)"
+NBC Sports,Last Close Timestamp,com.nbcsports.apps.tv/sp/com.newrelic.android.agent.v1_com.nbcsports.apps.tv.xml,"[\n\r].*""serverTimestamp"" value=""\s*([^\n\r]*)"
+Newsmax TV,Installation Timestamp,com.fli.android.newsmaxapp/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+Newsmax TV,Cache Expiration Timestamp,com.fli.android.newsmaxapp/f/.Fabric/io.fabric.sdk.android:fabric/com.crashlytics.settings.json,(?<!\d)\d{13}(?!\d)
+Newsmax TV,Initial Run Timestamp,com.fli.android.newsmaxapp/sp/com.google.android.gms.measurement.prefs.xml,"[\n\r].*""first_open_time"" value=""\s*([^\n\r]*)"
+Newsmax TV,Last Pause Timestamp,com.fli.android.newsmaxapp/sp/com.google.android.gms.measurement.prefs.xml,"[\n\r].*""last_pause_time"" value=""\s*([^\n\r]*)"
+Newsmax TV,Last Close Timestamp,com.fli.android.newsmaxapp/sp/com.google.android.gms.measurement.prefs.xml,"[\n\r].*""last_upload"" value=""\s*([^\n\r]*)"
+NFL,Installation Timestamp,com.gotv.nflgamecenter.us.lite/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+NFL,Initial Run Timestamp,com.gotv.nflgamecenter.us.lite/sp/APP_MEASUREMENT_CACHE.xml,"[\n\r].*""ADMS_InstallDate"" value=""\s*([^\n\r]*)"
+NFL,Last Run Timestamp,com.gotv.nflgamecenter.us.lite/sp/APP_MEASUREMENT_CACHE.xml,"[\n\r].*""ADMS_PauseDate"" value=""\s*([^\n\r]*)"
+NPR One,Installation Timestamp,org.npr.one/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+NPR One,Initial Run Timestamp,org.npr.one/sp/com.google.android.gms.measurement.prefs.xml,"[\n\r].*""first_open_time"" value=""\s*([^\n\r]*)"
+NPR One,Last Pause Timestamp,org.npr.one/sp/com.google.android.gms.measurement.prefs.xml,"[\n\r].*""last_pause_time"" value=""\s*([^\n\r]*)"
+NPR One,Last Close Timestamp,org.npr.one/sp/com.google.android.gms.measurement.prefs.xml,"[\n\r].*""last_upload"" value=""\s*([^\n\r]*)"
+Orbia,Installation Timestamp,com.joxdev.orbia/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+Orbia,Initial Run Timestamp,com.joxdev.orbia/sp/com.google.android.gms.measurement.prefs.xml,"[\n\r].*""first_open_time"" value=""\s*([^\n\r]*)"
+Orbia,Last Pause Timestamp,com.joxdev.orbia/sp/com.google.android.gms.measurement.prefs.xml,"[\n\r].*""last_pause_time"" value=""\s*([^\n\r]*)"
+Orbia,Last Close Timestamp,com.joxdev.orbia/sp/com.google.android.gms.measurement.prefs.xml,"[\n\r].*""last_upload"" value=""\s*([^\n\r]*)"
+Pacman 256,Last Close Timestamp,eu.bandainamcoent.pacman256/sp/eu.bandainamcoent.pacman256.v2.playerprefs.xml,(?<!\d)\d{13}(?!\d)
+Pandora,Installation Timestamp,com.pandora.android.atv/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+Pandora,Backend Links Visited,com.pandora.android.atv/r/app_webview/Default/Local Storage/leveldb/000003.log,"(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})"
+PBS,Installation Timestamp,com.pbs.video/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+PBS,User Email,com.pbs.video/sp/com.pbs.video_preferences.xml,[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+Play Games,Initial Run Timestamp,com.google.android.play.games/sp/com.google.android.gms.analytics.prefs.xml,(?<!\d)\d{13}(?!\d)
+Play Games,User Email,com.google.android.play.games/sp/master-per-user-shared-preferences.xml,[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+Radioline,Initial Run Timestamp,com.radioline.android.radioline/sp/pl.aidev.newradio.pref..xml,"[\n\r].*""first_start_date"" value=""\s*([^\n\r]*)"
+Radioline,Last Played Timestamp,com.radioline.android.radioline/sp/pl.aidev.newradio.pref..xml,"[\n\r].*""pl.aidev.newradio.pref.is.playing.timestamp"">\s*([^\n\r]*)"
+Red Ball 4,Last Close Timestamp,com.FDGEntertainment.redball4.gp/sp/Cocos2dxPrefsFile.xml,(?<!\d)\d{10}(?!\d)
+Red Ball 4,Initial Run Timestamp,com.FDGEntertainment.redball4.gp/sp/com.google.android.gms.measurement.prefs.xml,"[\n\r].*""first_open_time"" value=""\s*([^\n\r]*)"
+Red Ball 4,Initial Run Timestamp,com.FDGEntertainment.redball4.gp/sp/com.google.android.gms.analytics.prefs.xml,"[\n\r].*""first_run"" value=""\s*([^\n\r]*)"
+Red Ball 4,Last Pause Timestamp,com.FDGEntertainment.redball4.gp/sp/com.google.android.gms.measurement.prefs.xml,"[\n\r].*""last_pause_time"" value=""\s*([^\n\r]*)"
+Red Ball 4,Last Close Timestamp,com.FDGEntertainment.redball4.gp/sp/com.google.android.gms.measurement.prefs.xml,"[\n\r].*""last_upload"" value=""\s*([^\n\r]*)"
+Remote,Remote Mac Addr,com.google.android.tv.remotecontrol.logging/sp/RANDOM_ID.xml,[1234567890ABCDEF]{2}\:[1234567890ABCDEF]{2}\:[1234567890ABCDEF]{2}\:[1234567890ABCDEF]{2}\:[1234567890ABCDEF]{2}\:[1234567890ABCDEF]{2}
+Settings,Last Run Timestamp,com.google.android.apps.mediashell/sp/RecommendationsService.xml,(?<!\d)\d{13}(?!\d)
+Tubi TV,Installation Timestamp,com.tubitv/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+Tubi TV,Links Visited,com.tubitv/r/app_webview/Default/Session Storage/000003.log,"(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})"
+Tubi TV,Links Visited,com.tubitv/r/app_webview/Default/Local Storage/leveldb/000003.log,"(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})"
+Tubi TV,Username,com.tubitv/sp/com.tubitv_preferences.xml,"[\n\r].*""pref_user_name"">\s*([^\n\r]*)"
+Tubi TV,User Email,com.tubitv/sp/com.tubitv_preferences.xml,[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+TVWeb,Installation Timestamp,jp.co.rarity.tvweb/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+WebView,Last Run Timestamp,com.google.android.webview/sp/variations_prefs.xml,(?<!\d)\d{13}(?!\d)
+WWE,Installation Timestamp,com.mlbam.wwe_asb_app/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+WWE,First Run Timestamp,com.mlbam.wwe_asb_app/sp/LicenceMetadata.xml,(?<!\d)\d{13}(?!\d)
+WWE,Last Played Timestamp,com.mlbam.wwe_asb_app/sp/AppGeneral.xml,(?<!\d)\d{13}(?!\d)
+Xumo,Installation Timestamp,com.xumo.xumo.tv/r/app_webview/pref_store,(?<!\d)\d{10}(?!\d)
+YouTube,User Email,com.google.android.youtube.tv/sp/youtube.xml,[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+Zen Pinball,Last Close Timestamp,com.zenstudios.ZenPinball/sp/com.google.android.gms.appid.xml,(?<!\d)\d{10}(?!\d)
+Zen Pinball,Last Run Timestamp,com.zenstudios.ZenPinball/sp/com.google.android.gms.measurement.prefs.xml,(?<!\d)\d{13}(?!\d)
+Zen Pinball,Last Run Timestamp,com.zenstudios.ZenPinball/sp/FLURRY_SHARED_PREFERENCES.xml,(?<!\d)\d{13}(?!\d)
+Zen Pinball,User Email,com.zenstudios.ZenPinball/sp/UserAccount.xml,[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+TVWeb,Login Timestamp,jp.co.rarity.tvweb/sp/MainActivity.xml,"[\n\r].*""login_time"">\s*([^\n\r]*)"
+TVWeb,Links Visited + Timestamp,jp.co.rarity.tvweb/sp/MainActivity.xml,\{(.*?)\}
+TVWeb,Last Close Timestamp,jp.co.rarity.tvweb/sp/admob.xml,"[\n\r].*""app_last_background_time_ms"" value=""\s*([^\n\r]*)"
+TVWeb,Last Run Timestamp,jp.co.rarity.tvweb/sp/admob.xml,"[\n\r].*=""first_ad_req_time_ms"" value=""\s*([^\n\r]*)"
+TVWeb,Initial Run Timestamp,jp.co.rarity.tvweb/sp/com.google.android.gms.measurement.prefs.xml,"[\n\r].*""first_open_time"" value=""\s*([^\n\r]*)"
+TVWeb,Last Pause Timestamp,jp.co.rarity.tvweb/sp/com.google.android.gms.measurement.prefs.xml,"[\n\r].*""last_pause_time"" value=""\s*([^\n\r]*)"
+TVWeb,Last Close Timestamp,jp.co.rarity.tvweb/sp/com.google.android.gms.measurement.prefs.xml,"[\n\r].*""last_upload"" value=""\s*([^\n\r]*)"
+TVWeb,Links Visited,jp.co.rarity.tvweb/r/app_webview/Default/Session Storage/000003.log,"(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})"
+TVWeb,Links Visited,jp.co.rarity.tvweb/r/app_webview/Default/Local Storage/leveldb/000003.log,"(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})"
