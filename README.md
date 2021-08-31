@@ -18,6 +18,8 @@ This work has been funded under the Office of Naval Research Grant #N00014-20-1-
 
 `sudo apt install aapt adb`
 
+USB Debugging must be enabled on the device to interact with ADB. Click on `System -> About -> Android TV OS Build` until Developer mode is enabled, then go to `System -> Developer Options -> USB Deugging` to enable USB Debugging.
+
 ## Operation
 Forensicast makes use of regex and specified paths in the `/Artifacts.csv` file. To add your own artifacts, create a new line and input the artifact in [appname, type, path, regex] format. Type variants perform specified functions. (Eg. 'Timestamp' artifacts will accept a UNIX timestamp and convert it to UST) 
 
