@@ -21,7 +21,7 @@ This work has been funded under the Office of Naval Research Grant #N00014-20-1-
 ## Operation
 Forensicast makes use of regex and specified paths in the `/Artifacts.csv` file. To add your own artifacts, create a new line and input the artifact in [appname, type, path, regex] format. Type variants perform specified functions. (Eg. 'Timestamp' artifacts will accept a UNIX timestamp and convert it to UST) 
 
-Type variants include ["Installation Timestamp", "Initial Run Timestamp", "Last Run Timestamp", "Last Close Timestamp", "Last Pause Timestamp", "Links Visited", "Links Visited + Timestamp", "Backend Links Visited", "Site Headers", "User Email", "User Login Timestamp", "Saved Messages", "Accound ID", "Username", "Remote Mac Addr"]
+Type variants include ["Installation Timestamp", "Initial Run Timestamp", "Last Run Timestamp", "Last Close Timestamp", "Last Pause Timestamp", "Links Visited", "Links Visited + Timestamp", "Backend Links Visited", "Site Headers", "User Email", "User Login Timestamp", "Saved Messages", "Account ID", "Username", "Remote Mac Addr"]
 
 ![](https://github.com/unhcfreg/ForensiCast/blob/main/Forensicast%20Demo.png)
 
