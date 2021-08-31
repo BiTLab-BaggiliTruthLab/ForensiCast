@@ -1,4 +1,4 @@
-# Nicholas Dubois
+# @dragoneyeintel
 import subprocess
 import sys
 import os
@@ -28,34 +28,28 @@ def intro():
     ASCII()
     listDevices()
     print("1) Create Full Timeline")
-    print("2) Create Fuzzy Timeline")
-    print("3) Create Partial Timeline")
-    print("4) Dump All Recoverable Data")
-    print("5) Backup All")
-    print("6) Backup Package")
-    print("7) List Installed Applications")
-    print("8) List All Packages")
-    print("9) Install APK\n")
+    print("2) Dump All Recoverable Data")
+    print("3) Backup All")
+    print("4) Backup Package")
+    print("5) List Installed Applications")
+    print("6) List All Packages")
+    print("7) Install APK\n")
 
 # Main Menu Switch Statement
 def switch_main(arg):
     if arg == 1:
         fullTimeline("Artifacts.csv")
     elif arg == 2:
-        fuzzyTimeline()
-    elif arg == 3:
-        partialTimeline()
-    elif arg == 4:
         dumpAll()
-    elif arg == 5:
+    elif arg == 3:
         backupAll()
-    elif arg == 6:
+    elif arg == 4:
         backupPackage()
-    elif arg == 7:
+    elif arg == 5:
         listApps()
-    elif arg == 8:
+    elif arg == 6:
         listPackages()
-    elif arg == 9:
+    elif arg == 7:
         installAPK()
     else:
         print("ERROR, Restarting")
@@ -182,7 +176,7 @@ def printTimeline(collected_artifacts):
                 print(message)
             print("}\n")
 
-        if (artifact[1] == "Accound ID"):
+        if (artifact[1] == "Account ID"):
             print(artifact[0] + " - Application Account ID == ")
             printartifacts = removeDuplicates(artifact[2])
             for ID in printartifacts:
@@ -212,14 +206,6 @@ def get_artifact_path(file):
         for row in data:
             artifact_struct.append((row['appname'], row["path"], row['type'],  row['regex']))
         return artifact_struct
-
-# Create Timeline With All Patterns And Potential Data
-def fuzzyTimeline():
-    print("test2")
-
-# Create Timeline Based On Given Start/End Time With All KNOWN/VERIFIABLE Data
-def partialTimeline():
-    print("test3")
 
 # Backup And Extract To Backup/ Folder
 def dumpAll():
