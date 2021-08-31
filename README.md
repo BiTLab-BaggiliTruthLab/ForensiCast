@@ -8,10 +8,10 @@ As of now this tool only runs on Linux operating systems.
 
 ## Prerequestites
 
-[ADB - Android Debug Bridge] (https://developer.android.com/studio/command-line/adb)
+[ADB - Android Debug Bridge](https://developer.android.com/studio/command-line/adb)
 
-[AAPT - Android Asset Packaging Tool] (https://developer.android.com/studio/command-line/aapt2)
+[AAPT - Android Asset Packaging Tool](https://developer.android.com/studio/command-line/aapt2)
 
-[Java] (https://www.java.com/en/download/help/linux_x64_install.html)
+[Java](https://www.java.com/en/download/help/linux_x64_install.html)
 
 `sudo apt install aapt adb`
